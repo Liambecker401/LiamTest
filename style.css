@@ -1,0 +1,71 @@
+/* Reset default margin, padding, and set box-sizing for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styling for the body of the page */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Styling for the header section including navigation */
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+/* Navigation menu styles: horizontal list */
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+/* Styles for individual navigation items */
+header nav ul li {
+  margin: 0 1rem;
+}
+
+/* Styling for navigation links */
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Container class to constrain the width of the content and center it */
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  padding: 2rem 0;
+}
+
+/* Styling for each main section (spacing and borders) */
+section {
+  padding: 2rem 0;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Specific styling for the home section headshot image */
+#home img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  display: block;
+  margin: 1rem auto;
+}
+
+/* Footer styling with background and text color */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
